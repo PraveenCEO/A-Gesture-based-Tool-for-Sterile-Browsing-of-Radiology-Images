@@ -1,4 +1,4 @@
-https://github.com/PraveenCEO/PraveenCEO-A-Gesture-based-Tool-for-Sterile-Browsing-of-Radiology-Images-CNN-and-Open-CV
+A Gesture-based Tool for Sterile Browsing of Radiology Images CNN and Open CV
 
 ![Desktop Screenshot 2023 07 03 - 11 59 00 42](https://github.com/PraveenCEO/PraveenCEO-A-Gesture-based-Tool-for-Sterile-Browsing-of-Radiology-Images-CNN-and-Open-CV/assets/96170325/3ca85030-5246-41a0-93ff-3b1f48189d9d)
 

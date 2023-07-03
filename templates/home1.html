@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HOME</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Predict</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <script src="https://kit.fontawesome.com/bfa13e516e.js" crossorigin="anonymous"></script>     
+     <link href="{{ url_for('static', filename='css/style1.css') }}" rel="stylesheet">
+    
+	</script>
+      
+    <title>Bootstrap Code Block Example</title>
+   
+</head>
+<header class="center">
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg py-3">
+                <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong"></nav>
+                <a href="#" class="navbar-brand">
+                    <!-- Logo Image -->
+                    
+                   <img src="{{ url_for('static', filename='images/logoo.png') }}" width="45" alt=""></a>
+                   &nbsp; 
+                   
+                    <!-- Logo Text -->
+                  <a href="https://smartinternz.com/guided-project/a-gesture-based-tool-for-sterile-browsing-of-radiology-images-cnn-and-open-cv">
+                    <h2> Gesture-based Tool for Sterile Browsing of Radiology Images</h2>
+             </a>
+             
+                
+              </div>
+              </div>
+              
+               
+            </div>
+              </nav>
+              <div class="topnav">
+                <a class="active" href="{{url_for('home')}}">Home</a>
+            <div class="topnav-right">
+                  <a href="{{url_for('demo')}}">Demo</a>
+                  <a href="{{url_for('launch')}}">Launch</a>
+                </div>
+              </div>
+              
+              </div>
+    </div>
+</header>
+<img class="bg" src="{{ url_for('static', filename='images/doc.jpg') }}" width=100% height=100%>
+
+<div class="h1">
+    <br>
+    <marquee direction="right"> <h1> INTRODUCTION TO HAND GESTURE</h1></marquee>
+    </div>
+    <h3>Humans are able to recognize body and sign language easily. This is possible due to the combination of vision and synaptic interactions that were formed along brain development . 
+In order to replicate this skill in computers, some problems need to be solved: how to separate objects of interest in images and which image capture technology and classification technique are more appropriate, among others.
+In this project Gesture based Desktop automation ,First the model is trained pre trained on the images of different hand gestures, such as a showing numbers with fingers as 1 ,2,3,4 . 
+This model uses the integrated webcam to capture the video frame. The image of the gesture captured in the video frame is compared with  the Pre-trained model and the gesture is identified. 
+If the gesture predictes is 1 then images is blurred;2, image is resized;3,image is rotated etc.</h3>
+
+<br>
+<br>
+<br>
+<section id="about" class="with-medical">
+    <div class="container">
+        <div class="row">
+           <div class="col-lg-6 col-md-12">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/ov.png') }}" alt="" width="500" height="500">
+            </div>
+            <div class="col-lg-6 col-md-12 txtr">
+                <br>
+                <h3>OVERVIEW</h3>  
+               <p>In two brain surgeries at the Neurosurgery OR at the Washington Hospital Center, procedures were observed by the authors to gain insights about the use of current technologies and how they affect the quality of the surgeon's performance.
+                     We found that: (a) surgeons kept their focus of attention between the patient and the surgical point of interest on the touch-screen navigation system;
+                                    (b) a short distance between the surgeon and the patient was maintained during most of the surgery; 
+                                    (c) the surgeon had to move close to the main control wall to discuss and browse through the patient's MRI images.
+The hand gesture control system “Gestix” developed by the authors helped the doctor to remain in place during the entire operation, without any need to move to the main control wall since all the commands were performed using hand gestures.</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<br>
+<br>
+<div id="gallery" class="gallery">
+    <div class="container">
+        <h2><u>RADIOLOGY</h2><u></h2> 
+  <div class="row">
+   
+<div class="gallery_product col-md-4 col-md-4 col-sm-4 col-xs-6">
+                <img src="{{ url_for('static', filename='images/c1.jpg') }}" class="img-responsive" width="300" height="300">
+            </div>
+
+            <div class="gallery_product col-md-4 col-md-4 col-sm-4 col-xs-6 ">
+                <img src="{{ url_for('static', filename='images/c2.jpg') }}" class="img-responsive" width="300" height="300">
+            </div>
+
+            <div class="gallery_product col-md-4 col-md-4 col-sm-4 col-xs-6 ">
+                <img src="{{ url_for('static', filename='images/c3.jpg') }}" class="img-responsive" width="300" height="300">
+            </div>
+
+            </div>
+    </div>
+
+
+</div>
+
+</html>

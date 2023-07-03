@@ -1,0 +1,101 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!--Include latest bootstrap, CSS, jQuery CDN-->
+  <title>INTRODUCTION/DEMO</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+<style>
+  
+
+    .topnav {
+    background-color:black;
+    overflow: hidden;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(105, 118, 160);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:rgb(105, 118, 160);
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+body
+{
+  
+  background-size:auto;
+  background-position:center;
+
+  
+}
+h1
+{
+  text-decoration: underline;
+  color: black;
+}
+
+
+</style>
+
+
+  </head>
+
+ <body background="{{ url_for('static', filename='images/hand.gif') }}">
+  <div class="topnav">
+    <a class="active" href="{{url_for('demo')}}">Demo</a>
+<div class="topnav-right">
+      <a href="{{url_for('home')}}">Home</a>
+      <a href="{{url_for('launch')}}">Launch</a>
+    </div>
+  </div>
+<h1 style="color: rgb(193, 207, 207);">
+  <center>
+  <h1>HAND GESTURE RECOGNITION OF RADIOLOGY IMAGES THROUGH STERILE BROWSING</h1>
+  
+    
+      
+      <!-- <th><img src="https://media.tenor.com/images/30169e4a670daf12443df7d2dd140176/tenor.gif" alt="NOT AVAILABLE" width="300" height="300"></th> -->
+      
+       <iframe width="780" height="440" src="https://www.youtube.com/embed/nD621G8u6oc?start=3&loop=1&autoplay=1&mute=1&controls=0">
+      </iframe><br/>
+    </center>
+  <!-- <h1>HAND GESTURE RECOGNITION OF RADIOLOGY IMAGES THROUGH STERILE BROWSING</h1> -->
+ 
+  
+
+
+
+
+</div>
+</body>
+
+</html>
